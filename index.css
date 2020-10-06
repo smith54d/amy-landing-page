@@ -1,0 +1,87 @@
+.container {
+    display: grid;
+    grid-template-columns: 600px 600px;
+
+    /* justify-items: center; */
+    gap: 20px;
+    /* place-self: center; */
+    align-items: center;
+    
+}
+
+.amy{
+    border-radius: 80px;
+    height: 80%;
+    width: 80%;
+    padding-top: 80px;
+    margin-left: 100px
+    
+    
+
+}
+
+.btn {
+    background: #e0afaf;
+    border-color: white;
+}
+
+.btn:hover {
+    background: grey;
+    border-color: white;
+}
+
+.title {
+    font-family: 'EB Garamond', serif;
+    color: #060948;
+    font-size: 2.5rem;
+    width: 60%;
+    line-height: normal;
+    padding-bottom: 25px;
+    font-weight: 100;
+    padding-top: 80px
+    
+    
+
+}
+
+.header {
+    font-family: 'EB Garamond', serif;
+    color: #060948;
+    font-size: 3.5rem;
+    text-align: center;
+    
+    
+}
+
+.phrase {
+    font-family: 'EB Garamond', serif;
+    color: #060948;
+    font-size: 1.25rem;
+    line-height: 30px;
+    font-weight: 100;
+    align-items: center;
+    
+}
+
+form {
+    margin-left: 100px
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+/* .image-border {
+    border-right-style: solid;
+    
+   
+    
+} */
